@@ -4,12 +4,12 @@
 ### `pip install git+https://github.com/VISHU1999/analyzer_model.git`
 
 ## Analyze your documents and answer your ask question.
-`From analyzer_model import doc_analyzer`
-and Use this doc_analyzer function to anaylze your documents
+`From analyzer_model import doc_analyzer`.
+and Use this doc_analyzer function to anaylze your documents.
 
-doc_analyzer required two arguments 
-1 File Path. 
-2 Question which you want to ask.
+doc_analyzer required two arguments . 
+- File Path. 
+- Question which you want to ask.
 
 # Importent Note 
 - Open a text editor or any suitable code editor on your computer.
@@ -17,8 +17,8 @@ doc_analyzer required two arguments
 - Open the .env file in your text editor.
 - Inside the .env file, add the following lines.
 
-    `HUGGING_FACE_TOKEN=<YOUR_TOKEN_HERE>`
-    `HUGGINGFACE_MODEL=YOUR_MODEL_NAME_HERE>`
+   -  `HUGGING_FACE_TOKEN=<YOUR_TOKEN_HERE>`
+   -  `HUGGINGFACE_MODEL=<YOUR_MODEL_NAME_HERE>` its optional default model is `google/flan-t5-base`
 
 Replace YOUR_TOKEN_HERE with your Hugging Face token and YOUR_MODEL_NAME_HERE with the name of the model you want to use.
 Save the .env file.
