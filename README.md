@@ -23,3 +23,8 @@ doc_analyzer required two arguments
 Replace YOUR_TOKEN_HERE with your Hugging Face token and YOUR_MODEL_NAME_HERE with the name of the model you want to use.
 Save the .env file.
 Congratulations! You have created the .env file and added your Hugging Face token and model name to it. Make sure to keep this file secure and avoid sharing it with others, as it contains sensitive information.
+### Example of analyze the resume and ask 5 question to ask based on resume
+
+https://github.com/VISHU1999/analyzer_model/assets/70027559/17e8ff73-0bb3-4d24-9912-42b4094a8975
+
+
